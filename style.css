@@ -1,0 +1,130 @@
+.logo a{
+    color: #103748;
+    text-decoration: none;
+}
+
+h1{
+    font-size: 62px;
+    font-family: 'Volkhov', serif;
+}
+h4{
+    font-weight: 650;
+}
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer{   
+    margin-top: 100px;
+    
+}
+/*kockice pored naslova kategorije*/
+.square{
+    color: rgb(133, 175, 36);
+    position: relative;
+    top:-4px;
+}
+.square1{
+    color: rgb(42, 88, 216);
+    position: relative;
+    top:-4px;
+}
+
+
+nav a{
+    transition: 0.3s;
+    color: #103748;
+    font-weight: 900;
+}
+nav a:hover{
+    color: #558599;
+}
+
+section{
+    border-top: 1px solid;
+}
+
+.card{
+    border:none;
+}
+.card:hover{
+    color: red;
+    background-color: red;
+}
+
+/*tuning sport i zabava naslova*/
+.img1{
+    position: relative;
+    left: -7px;
+}
+.img2{ 
+    position: relative;
+    left: -2px;
+}
+/*unos.html FORMA*/
+form{
+    width: 50%;
+}
+#register{
+    background-color:#1e6685;
+    border: none;
+    width: 150px; 
+}
+#register:hover{
+    background-color:#19526b;
+}
+#prijava{
+    background-color:#1e6685;
+    border: none;
+    width: 150px; 
+}
+#prijava:hover{
+    background-color:#19526b;
+}
+
+#posalji{
+    background-color:#1e6685;
+    border: none;
+    width: 150px;  
+}
+#posalji:hover{
+    background-color:#19526b;
+}
+
+
+/*CLANAK.html*/
+.clanak-naslov{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.301);
+
+    width: 100%;
+}
+h2{
+    font-size: 46px;
+    font-family: 'Volkhov', serif;
+    text-align: center;
+}
+
+.kratki-opis{
+    width: 65%;
+    font-size: 0.9rem;
+    opacity: 0.7;
+}
+.article-slika{
+    width: 80%;
+}
+.article-slika > img{
+    width: 100%;
+}
+.tekst-vijesti{
+    width:60%;
+}
+.vrijeme{
+    font-weight: bold;
+}
+
+/*form validation*/
+form .error{
+    color: red;
+}
+
+
